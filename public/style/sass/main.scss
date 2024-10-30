@@ -1,0 +1,7 @@
+@import "colores";
+@import "fuentes";
+
+body {
+  font-family: $fuente;
+  background-color: $color-back;
+}
