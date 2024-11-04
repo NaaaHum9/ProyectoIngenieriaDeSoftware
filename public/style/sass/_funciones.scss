@@ -1,0 +1,30 @@
+/*
+* Archivo para declarar funciones 
+*/
+
+//Funcion para dar estilo a los botones
+@mixin botones-estilo{
+    all: unset; //quita los estilos del boton que estan por defecto
+    border: 1px solid $color-tercero;
+    border-radius: 15px;
+    background-color: $color-tercero;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+//Funcion para  dar tamano a los contedenores
+@mixin contenedores{
+    width: 80%;
+    max-width: 900px;
+    background-color: $color-secundario-fondos;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+//Funcion para hacer display flex
+@mixin displays{
+    display: flex;
+    flex-direction: column;
+}
