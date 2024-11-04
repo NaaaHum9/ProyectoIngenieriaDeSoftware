@@ -5,22 +5,86 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #72C8F1;
+  background-color: #E4E4E5;
 }
 
-.buttons-var {
+nav {
+  background-color: white;
+}
+nav .buttons-var {
   display: flex;
-  justify-content: center;
-  margin-right: 100px;
-  margin-left: 100px;
-  margin-bottom: 50px;
-  padding: 15px;
-  gap: 100px;
-  background-color: beige;
+  align-items: flex-end;
+  margin: 0 100px 0 100px;
+  padding: 10px 0 10px 0;
 }
 
-footer {
-  background-color: beige;
+a {
+  text-decoration: none;
+}
+
+.botones-principales {
+  all: unset;
+  border: 1px solid #72C8F1;
+  border-radius: 15px;
+  background-color: #72C8F1;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.div-informacion {
+  width: 80%;
+  max-width: 900px;
+  background-color: white;
+  margin-top: 100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-informacion-bloque {
+  background-color: #72C8F1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.div-servicios {
+  width: 80%;
+  max-width: 900px;
+  background-color: white;
+  margin-top: 100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-farmacia {
+  width: 80%;
+  max-width: 900px;
+  background-color: white;
+  margin-top: 100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-info-extra {
+  width: 80%;
+  max-width: 900px;
+  background-color: white;
+  margin-top: 100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=main.css.map */
